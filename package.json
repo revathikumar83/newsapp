@@ -16,7 +16,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node/server/index.js",
-    "build": "webpack"
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack --config webpack.dev.js"
   },
   "author": "",
   "license": "ISC"
