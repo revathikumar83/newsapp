@@ -3,7 +3,7 @@ const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 
 const app = express()
-import json;
+
 
 
 app.use(express.static('dist'))
