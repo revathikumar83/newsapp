@@ -5,7 +5,8 @@ function checkForName(inputText) {
         "Janeway",
         "Kirk",
         "Archer",
-        "Georgiou"
+        "Georgiou",
+        "Reva"
     ]
 
     if(names.includes(inputText)) {
@@ -13,4 +14,4 @@ function checkForName(inputText) {
     }
 }
 
-export { checkForName }
+export { checkForName }   
